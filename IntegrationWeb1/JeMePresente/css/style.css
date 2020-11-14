@@ -1,0 +1,40 @@
+body{
+    background-color: grey;
+    width: 900px;
+    margin: auto;
+    background-image: url("../img/sky.jpeg");
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h1, h2 {
+    color: peru;
+    text-align: center;
+}
+
+/*
+5. Changez la dimension de la balise p pour 14 px.
+6. Changez l’alignement de la balise p pour “justifiy”
+
+Changez la couleur de tous les liens pour un bleu pâle
+12. Changez la couleur des liens visités pour un bleu plus foncé
+13. Ajoutez un soulignement à vos liens lorsque l’utilisateur passe sa souris par dessus (hover)
+
+11. Appliquez une largeur de 300px à toutes vos images
+a. Trouvez une largeur qui vous convient
+12. Arrondissez les coins de vos images (border-radius)
+13. Lorsque l’usager passe sa souris par dessus votre image (hover) ajoutez un effet d’ombrage
+(box-shadow)
+
+11. Ajoutez une bordure à votre tableau
+12. Changez la taille et la couleur du texte de votre tableau
+13. Changez la taille du texte de vos listes
+14. Changez la couleur du texte de vos listes */
+
