@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+        var a, b, c;
+
+        function getMax(a, b, c) {
+            if (a > b && a > c) {
+                answer = a + " est le plus grand des 3 chriffres. Les 2 autres chiffres étant " + b + " et " + c + ".";
+            } else if (b > a && b > c) {
+                answer = b + " est le plus grand des 3 chriffres. Les 2 autres chiffres étant " + a + " et " + c + ".";
+            } else if (c > a && c > b) {
+                answer = c + " est le plus grand des 3 chriffres. Les 2 autres chiffres étant " + a + " et " + b + ".";
+            }
+            return answer; 
+       }
+
+       console.log(getMax(5, 9, 1));
+
+       console.log(getMax(2, 3, 10));
+
+    </script>
+
+</head>
+<body>
+    <h1>Bonjour</h1>
+</body>
+</html>
+
+
