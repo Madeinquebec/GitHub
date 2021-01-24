@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+</head>
+<body>
+    <p id="myElement">Lorem ipsum</p>
+</body>
+</html>
+<script>
+
+    function Voiture (nombreDeChevaux, color) {
+        this.estDemarre = false;
+        this.nombreDeChevaux = nombreDeChevaux;
+        this.couleur = color;
+    }
+
+    Voiture.prototype.demarrer = function() {
+        this.estDemarre = true;
+        console.log("voiture démarrée")
+    }
+
+    var maVoiture = new Voiture(250, "bleu")
+    maVoiture.demarrer();
+    console.log(maVoiture);
+
+    console.log(document.getElementById("myElement"));
+
+</script>
