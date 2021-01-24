@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+    var nombre = 0;
+
+    function jour(nombre) {
+        switch(nombre){
+            case 0:
+                journee = "Dimanche";
+                break;
+            case 1:
+                journee = "Lundi";
+                break;
+            case 2: 
+                journee = "Mardi";
+                break;
+            case 3: 
+                journee = "Mercredi";
+                break;
+            case 4: 
+                journee = "Jeudi";
+                break;
+            case 5: 
+                journee = "Vendredi";
+                break;
+            case 6:
+                journee = "Samedi";
+                break;
+            default: 
+                journee = "Ce n'est pas une journée";
+                break;
+        }
+
+        return journee;
+    }
+
+    console.log(jour(2));
+
+    </script>
+
+</head>
+<body>
+    <h1>Bonjour</h1>
+</body>
+</html>
+
+
