@@ -1,0 +1,46 @@
+/* 
+style.css
+Programme par : Eric Gosselin
+Derniere modification : 2020-01-23
+*/
+
+.textCenter {
+    text-align: center;
+}
+
+.title {
+    color: blue;
+}
+
+.center {
+    display: block;
+    height: 64px;
+    width: 64px;
+    margin: auto;
+  }
+
+#imgParis {
+    width: 100%;
+}
+
+#facebookLike {
+    height: 30px;
+}
+
+.BGGrey {
+    background-color: lightgrey;
+}
+
+
+
+
+
+.fondRouge {
+    background-color: red;
+}
+.fondVert {
+    background-color: green
+}
+.fondBlue {
+    background-color: blue;
+}
