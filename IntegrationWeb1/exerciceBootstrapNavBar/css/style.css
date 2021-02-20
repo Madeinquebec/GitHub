@@ -1,0 +1,29 @@
+h1 {
+    color: red;
+}
+
+#menuAccueil {
+    background-color: pink;
+}
+
+#bgAccueil{
+    background-color: lightblue;
+}
+
+#bgGermi {
+    background-color: burlywood;
+}
+
+#bgMicro {
+    background-color: green;
+}
+
+#imgLogo {
+    width: 6em;
+}
+
+.fab {
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+}
+

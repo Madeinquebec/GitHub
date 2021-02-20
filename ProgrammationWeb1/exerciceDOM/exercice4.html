@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Style Javascript</title>
+        <style>
+          .mondiv {
+            color: red;
+          }
+        </style>
+    </head>
+    <body>
+        <div id="lorem" class="mondiv">Lorem ipsum</div>
+    </body>
+</html>
+      
+    <script>
+
+        // let elt = document.getElementById("lorem")   c'est la même chose que la 2e ligne
+        let elt = document.getElementsByClassName("mondiv")[0];
+        elt.style.backgroundColor = "black";
+        elt.style.color = "blue";
+    </script>

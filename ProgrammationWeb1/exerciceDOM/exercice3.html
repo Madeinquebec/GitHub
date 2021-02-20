@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Style Javascript</title>
+    <style>
+      .mondiv {
+        color: red;
+      }
+      .monstyleajouter {
+        color: green;
+      }
+      .monnouveaustyle {
+        background-color: yellow;
+      }
+      .monstylereplace {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div id='divLorem'>Lorem ipsum</div>
+    <div id="divUt" class="monnouveaustyle">ut labore et dolore</div>
+    <div id="divMagna" class="mondiv">magna aliqua</div>
+  </body>
+</html>
+
+<script>
+    let divLorem = document.getElementById("divLorem");
+    divLorem.classList.add('monstyleajouter');
+
+    let divUt = document.getElementById('divUt');
+    divUt.classList.remove('monnouveaustyle');
+
+    let divMagna = document.getElementById('divMagna');
+    if (divMagna.classList.contains('mondiv')) {
+    divMagna.classList.replace('mondiv', 'monstylereplace');
+    }
+</script>

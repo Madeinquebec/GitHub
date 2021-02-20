@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function getValue() {
+            console.log("Le genre est " + document.getElementById("email").value);
+        }
+    </script>
+</head>
+<body>
+    
+    <form action="">
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email">
+        <br>
+        <label for="userName">Nom d'utilisateur</label>
+        <input type="text" id="userName" name="userName">
+        <br>
+        <label for="pwd">Mot de passe</label>
+        <input type="password" id="pwd" name="pwd">
+        <br>
+        <label for="pwdConf">Confirmation du mot de passe</label>
+        <input type="password" id="pwdConf" name="pwdConf">
+        <br>
+        <button type="submit" onclick=getValue() type="button">Soumettre</button>
+
+    </form>
+
+</body>
+</html>
+

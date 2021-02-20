@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+
+</head>
+<body>
+    
+</body>
+</html>
+
+<script>
+
+    function Animal() {
+        this.race;
+        this.couleur;
+        this.taille;
+        this.estNourri = false;
+        this.estFatigue = true;
+    };
+
+    Animal.prototype.manger = function() {
+        this.estNourri = true;
+        console.log("L'animal a mangé")
+    }
+
+    Animal.prototype.dormir = function() {
+        this.estFatigue = false;
+        console.log("L'animal a dormi")
+    }
+
+    var monAnimal = new Animal();
+
+    monAnimal.race = "Golden";
+    monAnimal.couleur = "Brun";
+    monAnimal.estNourri = false;
+
+    console.log(monAnimal);
+
+    monAnimal.manger();
+    monAnimal.dormir();
+    monAnimal.taille = 35;
+
+    console.log(monAnimal);
+
+
+
+
+
+</script>

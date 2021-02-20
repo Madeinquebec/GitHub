@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--- index.html --->
+<!--- Programme par : Eric Gosselin --->
+<!--- Derniere modification : 2021-02-13 --->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soirée sportive</title>
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            
+
+        </nav>
+
+        <!-- Section Video Background-->
+
+        <div class="overlay"></div>
+
+            <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                <source src="video/pexels-tima-miroshnichenko-6847314.mp4" type="video/mp4">
+            </video>
+            
+            <div class="container h-100" >
+            <div class="row h-100 text-center align-items-center" >
+                <div class="col-12 text-white" >
+                    <h2 class="display-3 pt-5"> <b>Grosse soirée sportive</b></h2>
+                    <p class="lead mb-0"></p>
+                </div>
+            </div>
+         </div>
+        
+
+
+    </header>
+
+        <br>
+            <!-- Bouton qui ouvre le modal (nous verrons d’autres façons de l’ouvrir avec Javascript) -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                Le match de ce soir?
+            </button>
+            <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
+                <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title"><h1>Ce soir</h1></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <!-- Portion publicitaire -->
+                <div class="modal-body">
+
+                    <div class="jumbotron jumbotron-fluid">
+                        <div class="container-fluid">
+                        <h1 class="display-5 text-center pb-3">20 février à 19h00</h1>
+                        
+                        <div class="row text-center">
+                            <div class="col-5 text-center">
+                                <h3>Mapple Leaf</h3>
+                                <img src="img/MappleLeafLogo.png" alt="Mapple Leaf Logo">
+                            </div>
+                            <div class="col-2 text-center pt-5"><h1>VS</h1></div>
+                            <div class="col-5 text-center">
+                                <h3>Canadien</h3>
+                                <img src="img/CanadienLogo.png" alt="Canadien Logo">
+                            </div>
+                        </div>
+
+                        <div class="row text-center">
+                            <div class="col-12 text-center pt-4 pb-4">
+                                <img src="img/CanML.webp" alt="Mapple Leaf VS Canadien">
+                        </div>
+
+                    </div>
+                
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-primary">
+                    <a href="https://www.rds.ca/hockey/canadiens/zone-de-match?event_id=157545" target="_blank" >Site de RDS</a> 
+                </button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+                </div>
+                </div>
+            </div>
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="bootstrap-4.0.0-dist/js/bootstrap.js"></script>
+
+</html>
